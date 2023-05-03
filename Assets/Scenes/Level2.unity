@@ -1891,7 +1891,7 @@ GameObject:
   - component: {fileID: 1613818950}
   - component: {fileID: 1613818949}
   m_Layer: 5
-  m_Name: Tip (1)
+  m_Name: TimerText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2333,6 +2333,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 8924011863020967234, guid: 477a2a5676e42164a828b8c6f03ac3b5, type: 3}
+      propertyPath: m_Color.b
+      value: 0.74509805
+      objectReference: {fileID: 0}
+    - target: {fileID: 8924011863020967234, guid: 477a2a5676e42164a828b8c6f03ac3b5, type: 3}
+      propertyPath: m_Color.g
+      value: 0.74509805
+      objectReference: {fileID: 0}
+    - target: {fileID: 8924011863020967234, guid: 477a2a5676e42164a828b8c6f03ac3b5, type: 3}
+      propertyPath: m_Color.r
+      value: 0.74509805
+      objectReference: {fileID: 0}
     - target: {fileID: 8924011864770899264, guid: 477a2a5676e42164a828b8c6f03ac3b5, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -2478,7 +2490,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.77254903, g: 0.77254903, b: 0.77254903, a: 1}
+  m_Color: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

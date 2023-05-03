@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Timer : MonoBehaviour
 {
-    public float Time;
+    public float Time = 20;
     float Counter;
     bool timerTick = true;
     public Animator lavaAnimator;

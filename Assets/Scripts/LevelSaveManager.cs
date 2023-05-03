@@ -10,14 +10,15 @@ public class LevelSaveManager : MonoBehaviour
     public Text loadLevelText;
     public Button continueButton;
 
+    private int savedLevel;
     private int loadLevel;
-    public int levelNumber;
     // Start is called before the first frame update
     void Start()
     {
-        if(savingLevel == true)
+        if (savingLevel == true)
         {
-            PlayerPrefs.SetInt("lastLevel", levelNumber);
+            savedLevel = SceneManager.GetActiveScene().buildIndex;
+            PlayerPrefs.SetInt("lastLevel", savedLevel);
         }
         if (savingLevel == false)
         {
