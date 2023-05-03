@@ -34,26 +34,7 @@ public class LevelSaveManager : MonoBehaviour
 
     public void loadLastLevel()
     {
-        if (loadLevel == 1)
-        {
-            SceneManager.LoadScene(1);
-        }
-        if (loadLevel == 2)
-        {
-            SceneManager.LoadScene(2);
-        }
-        if (loadLevel == 3)
-        {
-            SceneManager.LoadScene(3);
-        }
-        if (loadLevel == 4)
-        {
-            SceneManager.LoadScene(4);
-        }
-        if (loadLevel == 5)
-        {
-            SceneManager.LoadScene(5);
-        }
+        SceneManager.LoadScene(loadLevel);
     }
 
     public void clearStats()
